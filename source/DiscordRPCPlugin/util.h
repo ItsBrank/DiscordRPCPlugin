@@ -1,5 +1,4 @@
 #pragma once
-
 #include <algorithm>
 #include <map>
 #include <string>
@@ -175,7 +174,7 @@ const std::map<int32_t, std::string> playlistNames = {
     { 52,   "Gotham City Rumble" },
     { 54,   "Knockout" },
     { 55,   "confidential_thirdwheel_test" }, // April fools playlist, name can change every year depending on what the event is.
-    { 61,   "Quads" },
+    { 61,   "Ranked Quads" },
     { 62,   "Nike FC Showdown" },   
     { 64,   "Haunted Heatseeker" }, // Same thing as 65, but 2v2 and limited to the "Farm_HW_P" map only.
     { 65,   "Haunted Heatseeker" }, // Same thing as 54, but 3v3 and limited to the "Spooky" mapset.
@@ -198,6 +197,7 @@ const std::map<int32_t, std::string> playlistNames = {
     { 87,   "Demolition Duel" },
     { 88,   "Jump Jam" },
     { 89,   "Sonic Spin" },
+    { 90,   "Up To No Good" },
 };
 
 const std::vector<int32_t> formatThesePlaylists = {

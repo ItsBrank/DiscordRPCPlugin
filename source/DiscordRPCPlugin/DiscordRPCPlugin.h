@@ -37,7 +37,6 @@ struct PresenceData {
 class DiscordRPCPlugin: public BakkesMod::Plugin::BakkesModPlugin, public BakkesMod::Plugin::PluginSettingsWindow, public BakkesMod::Plugin::PluginWindow {
 
     std::shared_ptr<bool> enabled;
-
     PresenceData pd;
 
     std::array<std::shared_ptr<bool>, 6> activityCvars;
