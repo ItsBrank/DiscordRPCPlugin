@@ -126,7 +126,7 @@ const std::vector<std::string> rankNames = {
     "Supersonic Legend"
 };
 
-// Missing ids: 5, 14, 36, 39, 42, 45, 51, 53, 56, 57, 58, 59, 60, 63, 69, 71, 77, 78, 85
+// Missing ids: 5, 14, 36, 39, 42, 45, 51, 53, 56, 57, 58, 59, 60, 69, 71, 77, 78, 85
 const std::map<int32_t, std::string> playlistNames = {
     { 0,    "Casual" }, // Generic id to indicate ALL casual playlists, commonly used in API responses related to player skill/mmr. 
     { 1,    "Duel" },
@@ -177,7 +177,8 @@ const std::map<int32_t, std::string> playlistNames = {
     { 54,   "Knockout" },
     { 55,   "confidential_thirdwheel_test" }, // April fools playlist, name can change every year depending on what the event is.
     { 61,   "Ranked Quads" },
-    { 62,   "Nike FC Showdown" },   
+    { 62,   "Nike FC Showdown" },
+    { 63,   "Ranked Heatseeker" },
     { 64,   "Haunted Heatseeker" }, // Same thing as 65, but 2v2 and limited to the "Farm_HW_P" map only.
     { 65,   "Haunted Heatseeker" }, // Same thing as 54, but 3v3 and limited to the "Spooky" mapset.
     { 66,   "Heatseeker Ricochet" },
