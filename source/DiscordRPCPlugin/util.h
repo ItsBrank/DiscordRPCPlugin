@@ -126,7 +126,7 @@ const std::vector<std::string> rankNames = {
     "Supersonic Legend"
 };
 
-// Missing ids: 5, 14, 36, 39, 42, 45, 51, 53, 56, 57, 58, 59, 60, 69, 71, 77, 78, 85
+// Missing ids: 5, 14, 36, 39, 42, 45, 51, 53, 56, 57, 58, 59, 60, 69, 71, 85
 const std::map<int32_t, std::string> playlistNames = {
     { 0,    "Casual" }, // Generic id to indicate ALL casual playlists, commonly used in API responses related to player skill/mmr. 
     { 1,    "Duel" },
@@ -190,6 +190,8 @@ const std::map<int32_t, std::string> playlistNames = {
     { 74,   "Split Shot Doubles" },
     { 75,   "Split Shot Heatseeker" },
     { 76,   "Split Shot Heatseeker Doubles" },
+    { 77,   "Non-Standard Soccar" },
+    { 78,   "Non-Standard Soccar Doubles" },
     { 79,   "Split Shot Snow Day" },
     { 80,   "Run It Back" },
     { 81,   "Car Wars" },
